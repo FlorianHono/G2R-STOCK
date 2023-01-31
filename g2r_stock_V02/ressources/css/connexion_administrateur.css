@@ -1,0 +1,136 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa{
+    
+    color: #7a797e;
+}
+
+span{
+    position: absolute;
+    transform: translate(-40px,29px);
+}
+
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;   
+    font-size:x-large;
+    margin-bottom: 40px;
+}
+
+h2{
+    color: #696969;
+    font-size: larger;
+    margin-bottom: 30px;
+}
+
+i{
+    color: #606060;
+    transform: translate(-70%);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#343434 ;
+}
+
+.login{
+    max-width: 500px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 30px 30px 30px ;
+    border: 1px solid black;
+}
+
+form input[type="password"],
+form input[type="text"]{
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #696969;
+    outline: 0;
+    margin-top: 20px;
+    transform: translate(-8%);
+}
+
+form input[type="submit"]{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input[type="password"]:focus,
+form input[type="password"]:hover,
+form input[type="text"]:focus,
+form input[type="text"]:hover{
+    background-color: #fcfcfc;
+}
+
+form input[type="submit"]{
+    font-weight: bold;
+    color: white;
+    background-color: #606060;
+    font-size: medium;
+}
+
+form input[type="submit"]:focus,
+form input[type="submit"]:hover{
+    background-color: black;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+#inscrip{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: white;
+    background-color: #606060;
+    font-size: medium;
+}
+#inscrip:focus,
+#inscrip:hover{
+    background-color: black;
+}
+
+.mdpForgot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-weight: lighter;
+    font-size: small;
+}
+
+a:focus,
+a:hover{
+   color: black;
+}
+
+input[type="checkbox"]{
+    margin-top: 20px;
+    accent-color: #696969 ;
+}
+
+input:valid{
+    background-color: rgb(228, 255, 247);
+}
+

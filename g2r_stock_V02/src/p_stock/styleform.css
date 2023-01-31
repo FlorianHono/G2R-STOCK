@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin-left:0px ;
+    background-color: #414244;}
+
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 100%;
+    }
+ form{
+    max-width: 700px;
+    height: 100vh;
+    padding-left: 100px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#btn{
+    width: 100%;
+    background-color: rgb(120, 117, 117);
+   color: #fff;
+   border: 2px solid rgb(120, 117, 117);
+   margin: 5px;
+   padding: 5px;
+   margin-bottom: 60px;
+   font-weight: bold;
+   font-size: 125%;
+}
+#valider{
+    background-color: rgb(120, 117, 117);
+    color: #fff;
+    border: 2px solid rgb(120, 117, 117);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin-top: 30px;
+   margin-left: 120px;
+   font-weight: bold;
+   font-size: 125%;
+   
+}
+td,tr{
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+input, textarea,select{
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+}
+
+select{
+    width: 100%;  
+    margin: 7px;
+    padding: 7px;
+    padding-top: 10px;
+}
+#piedt{
+color: #babcc2;
+padding-top: 50px;
+padding-left: 100px;
+font-size: 130%;
+}
+#titre{
+    color: #83868a;
+    padding-bottom: 60px;
+   padding-left: 100px;
+   font-size: 150%;
+}
+label{
+    font-size: 135%;
+   position: absolute;
+   align-items: center;
+   bottom: 20px;
+    
+}
+
+select option{
+    font-size: 135%;
+
+}
+#et{
+    padding-left: 50px;
+   
+}
+#vil{
+    padding-left: 60px;
+}
+#addip{
+    padding-left: 15px; 
+}

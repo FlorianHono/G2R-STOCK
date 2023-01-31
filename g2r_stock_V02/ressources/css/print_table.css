@@ -1,0 +1,13 @@
+@media print{
+
+    body *:not(#tableau_excel):not(#tableau_excel *){
+        visibility:hiden;
+    }
+
+    #tableau_excel{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+}

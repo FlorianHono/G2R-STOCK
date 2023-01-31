@@ -1,0 +1,321 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  DEBUT NAV-HORIZONT */
+
+.couleur_nav_horiz{
+    background-color:#222222 ;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.nav-link{
+    color: #b9b9b9;
+}
+
+.nav-link:visited{
+    color: #b9b9b9;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+
+.fa-user_nav{
+    color: #b9b9b9;
+    transform: translate(0,8px);
+}
+
+.nav-deconnexion{
+    margin-left: 20px ;
+    margin-right: 20px ;
+}
+
+/*  FIN NAV-HORIZONT */
+
+/*  DEBUT FOOTER */
+
+footer{
+    text-align: center;
+    font-size: small;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.foot-link{
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+.foot-link:visited{
+    color: #b9b9b9;
+}
+
+.foot-link:hover{
+    color: white;
+}
+
+#footCustom{
+    background: #222222;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 100%;
+    margin-top: 5%;
+}
+
+/*  FIN FOOTER */
+
+body{
+    background: #343434 ;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 100vh;
+   
+}
+
+.boxFour,
+.boxThree,
+.boxTwo,
+.boxOne{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.boxFour:hover,
+.boxThree:hover,
+.boxTwo:hover,
+.boxOne:hover{
+    transform: scale(1.1);
+    border: solid 1px;
+    
+}
+
+.box-icone{
+margin-top: 10px;
+color: #e0e0e0;
+}
+
+.box-icone:hover{
+    color: #ffffff;
+
+    }
+
+.box-sep{
+    color: cfcf;
+    border: none;
+    border-top: 2px solid;
+}
+
+.textBox{
+    color: white;
+    font-weight: bolder;
+}
+
+.h2Acceuil{
+    font-size: 140%;
+    font-weight: bolder;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.h1accueil{
+    font-size: 140%;
+    font-weight: bolder;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.separation{
+    color: white;
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+
+    
+}
+
+#fil-icon{
+    color: white;
+    margin-left: 120px;
+    
+}
+
+.fil-ariane{
+    color: #b9b9b9;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.fil-ariane:visited{
+    color: #b9b9b9;
+}
+
+.fil-ariane:hover{
+    color: white;
+}
+
+
+.box-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box-link:visited{
+   
+    color: #ffffff;
+}
+.box-link:hover{
+   
+    color: #ffffff;
+}
+
+/* ----------DEBUT CSS THIBAUT------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Source+Sans+Pro&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;;
+   
+}
+.nav{
+    width: 100%;
+    height:70px;
+    background-color: black;
+    
+
+
+}
+a.button img{
+    background-color: white;
+    float: right;
+    margin-top: 1.2em;
+    margin-right: 3rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+  
+  
+  }
+.navbar{
+    position: absolute;
+    left: -222px;
+    width: 222px;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    transition: 0.800s ease;
+    border-right: 1px solid grey;
+   
+}
+
+.navbar .side.navbar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    padding: 1em ;
+    margin:0px 10px 0px 10px;
+    text-align: center;
+    flex: 1;
+    
+}
+.nav-item .nav-link:hover{
+    color: grey;
+}
+.toggle-collapse{
+    float: right;
+    margin-right: -3.3em ;
+    margin-top: 1.2em;
+    content:"";
+    outline: inherit;
+    border: 0px;
+    background: transparent;
+}
+
+.toggle-icon,
+.toggle-icon::before,
+.toggle-icon::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: fixed;
+    background-color: black;
+    border-radius: 2em;
+    border: 1px solid  black;
+    cursor: pointer;
+    transition: 0.800s ease;
+    margin-top: 1em;
+    background-color: white;
+    
+}
+.toggle-icon::before{
+    position: absolute;
+    right: -1px;
+    margin-top: -0.8em;
+}
+.toggle-icon::after{
+    position: absolute;
+    right: -1px;
+    margin-top: 0.6em;
+    width: 30px;
+
+}
+hr{
+    width: 120px;
+    margin-left: 50px;
+    border-width: 0.5px;
+    align-items: center;
+
+}
+button{
+    
+    padding: 0;
+}
+.toggle-icon{
+    width: 30px;
+    
+}
+.show .toggle-icon::after{
+    width: 30px;
+    
+}
+.show .toggle-icon{
+    width: 30px;
+    
+}
+.nav-item .logo-menu{
+    text-decoration: none;
+    padding: 0.9rem;
+    font-size: 2em;
+    color: white;
+    margin:0px 10px 100px 30px;
+ 
+  
+    
+}
+span{
+    background-color: white;
+}
+
+/* ----------FIN CSS THIBAUT------- */

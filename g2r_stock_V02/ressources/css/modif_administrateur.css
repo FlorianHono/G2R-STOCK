@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(241, 234, 234);
+}
+div{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(67, 63, 63);
+}
+#title{
+
+color: #fff;
+
+display: flex;
+justify-content: center;
+align-content: center;
+font-weight: bold;
+font-size: 100%;
+}
+table{
+   
+    position: absolute;
+    
+    left: 30%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+label{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 100%;
+    }
+    
+ /*form{
+    max-width: 700px;
+    height: 100vh;
+    padding-left: 100px;
+   
+    padding: 30px;
+    margin: 30px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+     position: relative;
+    left: 50%;
+    transform: translateX(-48%);*/
+
+
+input, textarea,select{
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+
+}
+select{
+    width: 100%;  
+    margin: 7px;
+    padding: 7px;
+    padding-top: 10px;
+}
+td,tr{
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+#titre{
+    color: #83868a;
+    padding-bottom: 20px;
+   padding-left: 225px;
+   font-size: 150%;
+}
+
+
+select option{
+    font-size: 135%;
+
+}
+#valider{
+    background-color: rgb(120, 117, 117);
+    color: #fff;
+    border: 2px solid rgb(120, 117, 117);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin-top: 30px;
+   margin-left: 155px;
+   font-weight: bold;
+   font-size: 90%;
+   
+}
+
+footer{
+
+    color: #fff;
+   
+       display: flex;
+   
+      align-content: flex-end;
+   
+      justify-content: center;
+   
+      font-size: 150%;
+   
+   }
+   
+   footer:hover{
+   
+    color:gray;
+   
+      letter-spacing: 6px;
+   
+      font-size: 150%;
+   
+   }

@@ -1,0 +1,138 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#seco{
+        
+        color: white;
+        font-weight: bolder; 
+    }
+    
+
+    #su{
+        color: white;
+        position: absolute;
+        transform: translate(0px,-190%);
+        padding: 20px;
+        text-align: center;
+        width:600px;
+       
+        background:black;
+    }
+    
+    .fa{
+        
+        color: #7a797e;
+    }
+    
+    span{
+        position: absolute;
+        transform: translate(-50px,24px);
+    }
+    
+    h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bolder;   
+        font-size:x-large;
+        margin-bottom: 40px;
+    }
+    
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:#343434 ;
+    
+    }
+
+    .sign_up{
+        max-width: 600px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        padding: 30px 30px 30px ;
+        border: 1px solid black;
+       
+    }
+
+    h2{
+        color: #696969;
+        font-size: larger;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+
+    h3{
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    select,
+    form input[type="tel"],
+    form input[type="email"],
+    form input[type="password"],
+    form input[type="repassword"],
+    form input[type="text"]{
+        width: 60%;
+        padding: 2px;
+        border: 1px solid #696969;
+        outline: 0;
+        margin-top: 20px;
+        transform: translate(-20px);
+        
+    }
+
+    select:hover,
+    select:focus,
+    form input[type="tel"]:focus,
+    form input[type="tel"]:hover,
+    form input[type="email"]:focus,
+    form input[type="email"]:hover,
+    form input[type="password"]:focus,
+    form input[type="password"]:hover,
+    form input[type="text"]:focus,
+    form input[type="text"]:hover{
+       background-color: #ececec;
+    }
+
+    .aline{
+        width: 120px;
+        display: inline-block;
+        transform: translate(-20px);
+        text-align: right;
+        margin-right: 20px;
+        
+    }
+
+    .foraline{
+        text-align: center;
+    }
+
+    form input[type="checkbox"]{
+        margin-top: 20px;
+        accent-color: #696969 ;
+    }
+
+    a{
+        color: #696969;
+    }
+
+    input:valid{
+        background-color: rgb(228, 255, 247);
+    }
+    
+    form input[type="submit"]{
+        font-weight: bold;
+        color: white;
+        background-color: #606060;
+        font-size: medium;
+        margin-top: 20px;
+    }
+
+    form input[type="submit"]:focus,
+    form input[type="submit"]:hover{
+       background-color: black;
+    }
+
+   

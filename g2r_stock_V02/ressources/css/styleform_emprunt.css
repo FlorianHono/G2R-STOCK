@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin-left:0px ;
+    background-color: #414244;}
+
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 100%;
+    }
+    #btn{
+        width: 100%;
+        background-color: rgb(120, 117, 117);
+       color: #fff;
+       border: 2px solid rgb(120, 117, 117);
+       margin: 5px;
+       padding: 5px;
+       margin-bottom: 10px;
+       font-weight: bold;
+       font-size: 125%;
+    }
+ form{
+    max-width: 700px;
+    height: 100vh;
+    padding-left: 100px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+     position: relative;
+    left: 50%;
+    transform: translateX(-48%);
+
+}
+input, textarea,select{
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+
+}
+select{
+    width: 100%;  
+    margin: 7px;
+    padding: 7px;
+    padding-top: 10px;
+}
+td,tr{
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+#titre{
+    color: #83868a;
+    padding-bottom: 20px;
+   padding-left: 225px;
+   font-size: 150%;
+}
+
+
+select option{
+    font-size: 135%;
+
+}
+#valider{
+    background-color: rgb(120, 117, 117);
+    color: #fff;
+    border: 2px solid rgb(120, 117, 117);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin-top: 30px;
+   margin-left: 120px;
+   font-weight: bold;
+   font-size: 125%;
+   
+}
+#piedt{
+    color: #babcc2;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 130%;
+    }
+    #qty{
+        max-width: 40%;
+    }
+    #qte{
+        max-width: 50%;
+        padding-left: 10px;
+    }
+#stag{
+ max-width: 30%;
+  
+}
+#emplo{
+    max-width: 50%;
+}
+
+#vil{
+    padding-left: 45px;
+}
+#addip{
+    padding-left: 4px; 
+}
+#date{
+    padding-left: 6px; 
+
+}
+#statut{
+    padding-left: 45px;
+}
